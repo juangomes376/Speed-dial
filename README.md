@@ -1,5 +1,5 @@
-<p align="center">
-Speed dial 
+<p align="center" style="font-size=25px">
+ Speed dial 
 </p>
 
 
