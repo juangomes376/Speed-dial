@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="FR">
+
+<link rel="stylesheet" href="style.css">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table-d'board</title>
+    <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+    <script type="text/javascript">
+        jQuery(window).load(function ($) {
+            atualizaRelogio();
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <a class="relogio">
+            <div>
+                <output id="hora" style="font-family: 'arial black', 'avant garde'; font-size: 45px;"></output>
+            </div>
+        </a>
+
+        <a class="tempo">
+            <div class="relogio">
+                <output id="data" style="font-family: 'arial black', 'avant garde'; font-size: 45px;"></output>
+            </div>
+        </a>
+    </header>
+
+    <div class="meteo">
+        <a>
+            <div id="cont_64683f84cfeda38ee7d4a20f20b4fc0d">
+                <script type="text/javascript" async
+                    src="https://www.tempo.com/wid_loader/64683f84cfeda38ee7d4a20f20b4fc0d"></script>
+            </div>
+        </a>
+    </div>
+
+    <div class="google">
+        <img class="img-google" src="img/pesquisa.svg" alt="">
+        <input name="searchInput" type="text" id="searchInputOne" class="searchInput" />
+    </div>
+
+    <div class="separacao">
+        <p class="titulo">
+            TITULO DA JANELA
+        </p>
+    </div>
+
+    <div class="grid">
+        <li>
+            <a href=" LINK " class="botoes">
+                <img src="img/whatsapp.svg" alt="amazon">
+                <p> NOME </p>
+            </a>
+        </li>
+    </div>
+
+    <div class="separacao">
+        <p class="titulo">
+            TITULO DA JANELA
+        </p>
+    </div>
+
+    <div class="grid">
+        <li>
+            <a href=" LINK " class="botoes">
+                <img src="img/whatsapp.svg" alt="amazon">
+                <p> NOME </p>
+            </a>
+        </li>
+    </div>
+
+    <div class="separacao">
+        <p class="titulo">
+            TITULO DA JANELA
+        </p>
+    </div>
+
+    <div class="grid">
+        <li>
+            <a href=" LINK " class="botoes">
+                <img src="img/whatsapp.svg" alt="amazon">
+                <p> NOME </p>
+            </a>
+        </li>
+    </div>
+
+    <div class="separacao">
+        <p class="titulo">
+            TITULO DA JANELA
+        </p>
+    </div>
+
+    <div class="grid">
+        <li>
+            <a href=" LINK " class="botoes">
+                <img src="img/whatsapp.svg" alt="amazon">
+                <p> NOME </p>
+            </a>
+        </li>
+    </div>
+
+    <div class="separacao">
+        <p class="titulo">
+            TITULO DA JANELA
+        </p>
+    </div>
+
+    <div class="grid">
+        <li>
+            <a href=" LINK " class="botoes">
+                <img src="img/whatsapp.svg" alt="amazon">
+                <p> NOME </p>
+            </a>
+        </li>
+    </div>
+
+    <div class="separacao">
+        <p class="titulo">
+            TITULO DA JANELA
+        </p>
+    </div>
+
+    <div class="grid">
+        <li>
+            <a href=" LINK " class="botoes">
+                <img src="img/whatsapp.svg" alt="amazon">
+                <p> NOME </p>
+            </a>
+        </li>
+    </div>
+
+    <div class="separacao">
+        <p class="titulo">
+            TITULO DA JANELA
+        </p>
+    </div>
+
+    <div class="grid">
+        <li>
+            <a href=" LINK " class="botoes">
+                <img src="img/whatsapp.svg" alt="amazon">
+                <p> NOME </p>
+            </a>
+        </li>
+    </div>
+
+</body>
+
+<script>
+
+    var input = document.getElementById("searchInputOne");
+    const inputEle = document.getElementById('searchInputOne');
+    inputEle.addEventListener('keyup', function (e) {
+        var key = e.which || e.keyCode;
+        if (key == 13) { // codigo da tecla enter
+            window.location = "https://www.google.com/search?q=" + input.value;
+        }
+    });
+
+    function atualizaRelogio() {
+        var momentoAtual = new Date();
+        var vhora = momentoAtual.getHours();
+        var vminuto = momentoAtual.getMinutes();
+        var vsegundo = momentoAtual.getSeconds();
+        var vdia = momentoAtual.getDate();
+        var vmes = momentoAtual.getMonth() + 1;
+        var vano = momentoAtual.getFullYear();
+        if (vdia < 10) { vdia = "0" + vdia; }
+        if (vmes < 10) { vmes = "0" + vmes; }
+        if (vhora < 10) { vhora = "0" + vhora; }
+        if (vminuto < 10) { vminuto = "0" + vminuto; }
+        if (vsegundo < 10) { vsegundo = "0" + vsegundo; }
+        dataFormat = vdia + " / " + vmes + " / " + vano;
+        horaFormat = vhora + " : " + vminuto + " : " + vsegundo;
+        document.getElementById("data").innerHTML = dataFormat;
+        document.getElementById("hora").innerHTML = horaFormat;
+        setTimeout("atualizaRelogio()", 1000);
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,156 @@
+body {
+    background-image: url("img/wallpaper.svg");
+    margin: auto;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: aliceblue;
+    width: 780px;
+    margin: 45px auto 45px auto;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.botoes {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 90px;
+    height: 100px;
+    cursor: pointer;
+    color: rgb(5, 5, 5);
+    border-bottom: 20px;
+
+}
+
+p {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    
+}
+
+
+
+li {
+    justify-self: start;
+    align-items: normal;
+    display: grid;
+    grid-template-columns: repeat(8, 86px);
+    -webkit-box-pack: var(--ntp-item-justify, start);
+    justify-content: var(--ntp-item-justify, start);
+    gap: 10px;
+    padding: 24px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.grid {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    background-color: rgba(5, 5, 5, 0.829);
+    border-radius: 40px;
+    border: 1px solid rgb(248, 245, 245);
+
+
+}
+
+.google {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 800px;
+    background-color: rgba(8, 8, 8, 0.336);
+    border-radius: 40px;
+    border: 1px solid rgb(248, 245, 245);
+}
+
+.img-google {
+    height: 15px;
+    width: 15px;
+    margin: 15px;
+    border-radius: 0px;
+}
+
+
+input {
+    width: 780px;
+    height: 44px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 18px;
+    outline: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.pesquisa {
+    background-color: rgb(0, 0, 0);
+    width: 115px;
+    height: 46px;
+    border-radius: 35px;
+    margin-left: 10px;
+    color: rgb(245, 7, 7);
+
+}
+
+.meteo {
+    background-color: rgba(8, 8, 8, 0.336);
+    border-radius: 40px;
+    border: 1px solid rgb(248, 245, 245);
+    width: 800px;
+    margin: 20px auto;
+}
+
+.separacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(5, 5, 5, 0.829);
+    
+    border-radius: 40px;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin: auto;
+}
