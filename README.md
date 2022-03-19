@@ -1,7 +1,7 @@
 <p align="center">
-    <a href="#projeto">Projeto</a>
+    <a href="#projeto">Projeto</a> |
     <a href="#tecnologias">Tecnologias</a> |
-    <a href="#como utilizar">Como usar?</a> |
+    <a href="#como-usar">Como usar?</a> |
     <a href="#licença">Licença</a>
 </p>
 
