@@ -3,6 +3,7 @@
     <a href="#tecnologias">Tecnologias</a> |
     <a href="#como-usar">Como usar?</a> |
     <a href="#licença">Licença</a>
+    <a href="#como-customizar">Como customizar! </a>
 </p>
 
 <p align="center">
@@ -87,6 +88,22 @@ Com seu novo script substituir sua nova div pela div que esta atualmente no codi
 </div>
 
 ```
+
+## Como customizar!
+ 
+No arquivo css voce podera estar fazendo todas as modificaçoes que voce precisar para deixar o projeto no seu stylo.
+
+1- Plano de fundo 
+
+Para trocar o plano de fundo total do projeto e so subtistuir  na tag body. 
+
+2- Cor dos textos
+
+Trocar o color da tag .color-text
+
+3- plano de fundo dos conjuntos de botoes e titulos.
+
+trocar o background-color na tag background
 
 
 ## Licença
