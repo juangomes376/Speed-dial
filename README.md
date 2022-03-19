@@ -31,7 +31,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 Como primeiro passo vamos baixar todo o repositorio com o sequinte comando.
 
 ```bash 
- git clone https://github.com/juangomes376/nova-aba
+ git clone https://github.com/juangomes376/Speed-dial
 ```
 Para estar adicionado novos sites e facil como pode ver em baixo como no exemplo e so repetir com suas informacoes. 
 
