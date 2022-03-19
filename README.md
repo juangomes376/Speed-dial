@@ -1,6 +1,4 @@
-<p align="center" style="font-size=25px">
- Speed dial 
-</p>
+# Speed Dial 
 
 
 
