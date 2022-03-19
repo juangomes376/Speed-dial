@@ -2,7 +2,7 @@
     <a href="#projeto">Projeto</a> |
     <a href="#tecnologias">Tecnologias</a> |
     <a href="#como-usar">Como usar?</a> |
-    <a href="#licença">Licença</a>
+    <a href="#licença">Licença</a> |
     <a href="#como-customizar">Como customizar! </a>
 </p>
 
